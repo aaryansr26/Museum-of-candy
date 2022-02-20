@@ -40,7 +40,8 @@ h2 {
 }
 
 .scrolled {
-    background-color: rgb(222,192,222) !important;
+    background: rgb(222,192,222) !important;
+    transition: background 500ms;
 }
 
 @media (max-width: 1200px) {
@@ -58,4 +59,5 @@ h2 {
 
 .content { 
     margin-top: 100px;
+    margin-bottom:100px;
 }
